@@ -1,0 +1,759 @@
+
+/*HOME PAGE START*/
+
+/*HERO SLIDER SECTION START*/
+#hero_section{
+    width: 100%;
+    height: auto;
+}
+#hero_section .hero_slider{
+    display: flex;
+
+}
+#hero_section .hero_slider .item .hero_slider_img{
+    width: 100%;
+    height: 80vh;
+}
+@media only screen and (max-width: 599px) {
+   
+    #hero_section .hero_slider .item .hero_slider_img{
+        width: 100%;
+        height: 45vh;
+    }
+    
+    }
+    @media only screen and (min-width: 600px) and (max-width: 899px) {
+    
+    #hero_section .hero_slider .item .hero_slider_img{
+        width: 100%;
+        height: 70vh;
+    }
+    }
+  
+
+
+
+/*HERO SLIDER SECTION END*/
+
+/*ABOUT SECTION START*/
+#about_section{
+    height: auto;
+}
+#about_section .container .about_row {
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+}
+#about_section .container .about_row .about_section_img .about_img{
+    width: 100%;
+    height: 100%;
+}
+#about_section .container .about_row .about_section_text h2{
+    margin-bottom: 20px;
+}
+
+#about_section .container .about_row .about_section_text .about_btn_section .btn-custom{
+    margin-top: 30px;
+    background-color: #54B435;
+    color: white;
+   border-radius: 30px;
+   padding: 15px 30px;
+   font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+   
+   
+}
+
+#about_section .container .about_row .about_section_text .about_btn_section .btn-custom:hover{
+    background-color: #379237;
+    
+}
+
+@media only screen and (max-width: 599px) {
+    /* Styles for devices with a width of 599px or less */
+    #about_section .container .about_row .about_section_text{
+        margin-top: 25px;
+    }
+    #about_section .container .about_row .about_section_text h2{
+        font-size: 24px;
+    }
+    #about_section .container .about_row .about_section_text p{
+        font-size: 15px;
+    }
+    #about_section .container .about_row .about_section_text .about_btn_section .btn-custom{
+       margin-top: 20px;
+        margin-left: 0px !important;
+    }
+    
+    }
+    @media only screen and (min-width: 600px) and (max-width: 899px) {
+        /* Styles for devices with a width between 600px and 899px */
+        #about_section .container .about_row .about_section_img{
+            width: 49%;
+            height: 393px;
+            padding: 0;
+        }
+        #about_section .container .about_row {
+            
+            gap: 0px;
+          
+        }
+        #about_section .container .about_row .about_section_text{
+            width: 50%;
+        }
+        #about_section .container .about_row .about_section_text .about_btn_section .btn-custom{
+            width: 50%;
+            margin-left: 0px !important;
+        }
+        }
+/*ABOUT SECTION END*/
+/*SERVICE SECTION START*/
+#service_section{
+    height: auto;
+}
+#service_section .container .service_row{
+    justify-content: center;
+
+}
+#service_section .container .service_row .service_item{
+  text-align: center;
+
+}
+#service_section .container .service_row .service_item .service_img{
+width: 30%;
+margin-bottom: 20px;
+}
+@media only screen and (min-width: 600px) and (max-width: 899px){
+    #service_section .container .service_row .service_item{
+        height: 200px;
+       
+      }
+}
+@media only screen and (max-width: 599px){
+ #service_section .container .service_row .service_item .service_img{
+        
+        margin-bottom: 20px;
+ }
+ #service_section .container .service_row .service_item{
+   width: 50%;
+   height: 150px;
+    padding: 0px;
+ }
+ #service_section .container .service_row .service_item h3{
+    font-size: 18px;
+ }
+}
+/*SERVICE SECTION END*/
+/*PACKAGES SECTION START*/
+
+#packages_section{
+    background-color: #01184D;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
+#packages_section .container .packages_section_heading{
+    text-align: center;
+    color: #fff;
+}
+#packages_section .container .packages_row{
+    padding: 20px 0px;
+}
+#packages_section .container .packages_row .packages_item{
+    color: #fff;
+    padding: 15px 0px;
+    display: flex;
+   font-weight: bold;
+   font-size: 17px;
+    gap: 10px;
+    font-family: "Overlock", sans-serif;
+}
+#packages_section .container .packages_section_contact{
+    color: #fff;
+    text-align: center;
+    font-family: "Overlock", sans-serif;
+    font-size: 24px;
+}
+@media only screen and (max-width: 599px){
+    #packages_section .container .packages_row .packages_item{
+        padding-left: 10px;
+        
+    } 
+}
+/*PACKAGES SECTION END*/
+
+/*TOURIST PLACES SECTION START*/
+
+#Tourist_Place_section{
+    height: auto;
+    background-image: url(../img/Untitled-design-9.webp);
+    padding: 65px 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #F1FFF3;
+}
+
+#Tourist_Place_section .container .Tourist_Place_row{
+    align-items: center;
+} 
+#Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_text h2{
+margin-bottom: 20px;
+}
+#Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_text .about_btn_section .btn-custom{
+    margin-top: 30px;
+    background-color: #54B435;
+    color: white;
+   border-radius: 30px;
+   padding: 10px 30px;
+   font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+  
+}
+
+#Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_text .about_btn_section .btn-custom:hover{
+    background-color: #379237; 
+}
+#Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+#Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_img .place{
+height: 244px !important;
+text-align: center;
+}
+#Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_img .place .place_img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    transform: translateY(0);
+    transition: all 0.3s;
+}
+#Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_img .place .place_img:hover {
+    transform: translateY(-5px);
+  }
+#Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_img .place p{
+    padding: 5px 0;
+    font-family: "Overlock", sans-serif;
+    font-size: 18px !important;
+    font-weight: bold;
+}
+#Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_img .place4{
+ margin-top: 39% !important;
+text-align: center;
+}
+#Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_img .place4 .place4_img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    transform: translateY(0);
+    transition: all 0.3s;
+}
+#Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_img .place4 .place4_img:hover {
+    transform: translateY(-5px);
+  }
+#Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_img .place4 p{
+    padding: 5px 0;
+    font-family: "Overlock", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+@media only screen and (min-width: 600px) and (max-width: 899px){
+    #Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_text{
+      padding-left: 0 ;
+        }
+        #Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_text h2{
+            font-size: 32px;
+        }
+        #Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_text p{
+            font-size: 16px;
+        }
+        #Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_img {
+            padding: 0;
+        }
+        #Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_img .place{
+            height: 150px !important;
+            text-align: center;
+            }
+            #Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_img .place .place_img{
+                width: 100%;
+                height: auto;
+                display: block;
+                border-radius: 5px;
+                transform: translateY(0);
+                transition: all 0.3s;
+            }
+            #Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_img .place .place_img:hover {
+                transform: translateY(-15px);
+              }
+            #Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_img .place p{
+                padding: 5px 0;
+                font-family: "Overlock", sans-serif;
+                font-size: 16px !important;
+                font-weight: bold;
+            }
+            #Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_img .place4{
+             margin-top: 38% !important;
+            text-align: center;
+            }
+            
+            #Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_img .place4 p{
+                padding: 5px 0;
+                font-family: "Overlock", sans-serif;
+                font-size: 16px;
+                font-weight: bold;
+            }
+}
+@media only screen and (max-width: 599px){
+   
+    #Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_text h2{
+        font-size: 24px;
+    }
+    #Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_img{
+        display: grid;
+        grid-template-columns: 1fr;
+       
+        margin-top: 40px;
+    }
+
+    #Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_img .place4{
+        margin-top: 42% !important;
+       text-align: center;
+       }
+       #Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_img .place{
+        min-height: auto !important;
+        text-align: center;
+        }
+}
+
+/*TOURIST PLACES SECTION END*/
+/*DESTINATION SECTION START*/
+#destination_section{
+    width: 100%;
+    min-height: 500px;
+    background-image: url(../img/destination.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 115px 0px;
+}
+#destination_section .container .destination_section_info{
+    text-align: center;
+    color: #fff;
+}
+#destination_section .container .destination_section_info .destination_text{
+margin-bottom: 20px;
+}
+#destination_section .container .destination_section_info .destination_name{
+font-size: 60px;
+margin-bottom: 20px;
+}
+#destination_section .container .destination_section_info .destination_contact{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+#destination_section .container .destination_section_info .destination_contact span{
+    color: #379237;
+}
+#destination_section .container .destination_section_info .about_btn_section .btn-custom{
+    margin-top: 30px;
+    background-color: #54B435;
+    color: #fff;
+   border-radius: 30px;
+   padding: 10px 30px;
+   font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+  
+}
+
+#destination_section .container .destination_section_info .about_btn_section .btn-custom:hover{
+    background-color: #379237; 
+}
+@media only screen and (max-width: 599px){
+    #destination_section .container .destination_section_info .destination_text{
+        font-size: 15px;
+        }
+        #destination_section .container .destination_section_info .destination_name{
+        font-size: 30px;
+        }
+}
+
+
+
+/*DESTINATION SECTION END*/
+
+
+
+/*HOME PAGE END*/
+
+/*ABOUT PAGE SATRT*/
+
+/*ABOUT BANNER SECTION START*/
+
+#about_banner_section{
+    width: 100%;
+    background-image: url(../about_img/aboutpage.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 500px;
+}
+#about_banner_section .banner_text .banner_text_titel{
+    color: #fff;
+    text-align: center;
+    font-size: 64px;
+    padding: 210px 0;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px){
+    #about_banner_section{
+        width: 100%;
+        background-image: url(../about_img/aboutpage.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: 280px;
+    }
+    #about_banner_section .banner_text .banner_text_titel{
+        color: #fff;
+        text-align: center;
+        font-size: 44px;
+        padding: 100px 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 599px){
+
+    #about_banner_section{
+        width: 100%;
+        background-image: url(../about_img/aboutpage.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: 220px;
+    }
+    #about_banner_section .banner_text .banner_text_titel{
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+        padding: 100px 0;
+    }
+
+}
+
+
+/*BANNER SECTION END*/
+
+/*ABOUT SECTION START*/
+#about_section{
+    height: auto;
+}
+#about_section .container .about_row {
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+}
+
+#about_section .container .about_row .about_section_img .about_img{
+    width: 100%;
+    height: 100%;
+}
+#about_section .container .about_row .about_section_text h2{
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 599px) {
+    /* Styles for devices with a width of 599px or less */
+    #about_section .container .about_row .about_section_text{
+        margin-top: 25px;
+    }
+    #about_section .container .about_row .about_section_text h2{
+        font-size: 24px;
+    }
+    #about_section .container .about_row .about_section_text p{
+        font-size: 15px;
+    }
+    
+    
+    }
+    @media only screen and (min-width: 600px) and (max-width: 899px) {
+        /* Styles for devices with a width between 600px and 899px */
+        #about_section .container .about_row .about_section_img{
+            width: 49%;
+            height: 393px;
+            padding: 0;
+        }
+        #about_section .container .about_row {
+            
+            gap: 0px;
+          
+        }
+        #about_section .container .about_row .about_section_text{
+            width: 50%;
+        }
+        #about_section .container .about_row .about_section_text h2{
+            font-size: 32px;
+        }
+        #about_section .container .about_row .about_section_text p{
+            font-size: 16px;
+        }
+        }
+/*ABOUT SECTION END*/
+/*MISSION VISION SECTION START*/
+
+#mission_vision_section{
+    height: auto;
+}
+#mission_vision_section .container .mission_section .mission_section_title{
+    font-size: 24px;
+}
+#mission_vision_section .container .vision_section .vision_section_title{
+    font-size: 24px;
+}
+@media only screen and (max-width: 599px){
+    #mission_vision_section .container .mission_section .mission_section_text{
+        font-size: 16px;
+    }
+    #mission_vision_section .container .vision_section .vision_section_text{
+        font-size: 16px;
+    }
+}
+/*MISSION VISION SECTION END*/
+
+/*ABOUT PAGE END*/
+
+/*PLACES TO VISIT PAGE START*/
+
+/*PLACES TO VISIT BANNER SECTION START*/
+
+#placestovisit_banner_section{
+    width: 100%;
+    background-image: url(../about_img/aboutpage.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 500px;
+}
+#placestovisit_banner_section .banner_text .banner_text_titel{
+    color: #fff;
+    text-align: center;
+    font-size: 64px;
+    padding: 210px 0;
+    margin: 0;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px){
+    #placestovisit_banner_section{
+        max-height: 280px;
+    }
+    #placestovisit_banner_section .banner_text .banner_text_titel{
+        color: #fff;
+        text-align: center;
+        font-size: 44px;
+        padding: 100px 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 599px){
+
+    #placestovisit_banner_section{
+        max-height: 220px;
+    }
+    #placestovisit_banner_section .banner_text .banner_text_titel{
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+        padding: 100px 0;
+    }
+
+}
+
+
+/*BANNER SECTION END*/
+
+/*BOLPUR SECTION START*/
+
+#bolpur_section{
+    height: auto;
+}
+#bolpur_section .container .bolpur_section_text{
+    margin-bottom: 50px;
+}
+#bolpur_section .container .bolpur_section_text span{
+    font-family: "Audiowide", sans-serif;
+   
+}
+#bolpur_section .container .bolpur_section_text h2{
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+
+#bolpur_section .container .shantiniketan_slider .item{
+    text-align: center;
+}
+
+#bolpur_section .container .shantiniketan_slider .item .shantiniketan_slider_img{
+    border-radius: 5px;
+    margin-bottom: 5px;
+    aspect-ratio: 3/2;
+    
+}
+
+/*BOLPUR SECTION END*/
+
+/*KOLKATA SECTION START*/
+
+#Kolkata_section{
+    height: auto;
+    background-color: #EDFBE2;
+    padding: 65px 0;
+}
+#Kolkata_section .container .Kolkata_section_text{
+    margin-bottom: 50px;
+}
+#Kolkata_section .container .Kolkata_section_text span{
+    font-family: "Audiowide", sans-serif;
+   
+}
+#Kolkata_section .container .Kolkata_section_text h2{
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+
+#Kolkata_section .container .Kolkata_slider .item{
+    text-align: center;
+}
+
+#Kolkata_section .container .Kolkata_slider .item .Kolkata_slider_img{
+    border-radius: 5px;
+    margin-bottom: 5px;
+    aspect-ratio: 3/2;
+}
+@media only screen and (max-width: 599px){
+    #Kolkata_section{
+       
+        padding: 40px 0;
+    }
+}
+/*KOLKATA SECTION END*/
+
+/*PLACES TO VISIT PAGE END*/
+
+
+/*CONTACT PAGE START*/
+
+/*CONTACT BANNER SECTION START*/
+
+#contact_banner_section{
+    width: 100%;
+    background-image: url(../contact_img/PROD_Shantiniketan-1_1687717944641.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 500px;
+}
+#contact_banner_section .banner_text .banner_text_titel{
+    color: #fff;
+    text-align: center;
+    font-size: 64px;
+    padding: 210px 0;
+    margin: 0;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px){
+    #contact_banner_section{
+        max-height: 280px;
+    }
+    #contact_banner_section .banner_text .banner_text_titel{
+        color: #fff;
+        text-align: center;
+        font-size: 44px;
+        padding: 100px 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 599px){
+
+    #contact_banner_section{
+        max-height: 220px;
+    }
+    #contact_banner_section .banner_text .banner_text_titel{
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+        padding: 100px 0;
+    }
+
+}
+
+
+/*BANNER SECTION END*/
+
+/*CONTACT SECTION START*/
+#contact_section{
+    background-color: #F6F6F6;
+   
+}
+#contact_section .contact-info {
+    padding: 40px;
+}
+#contact_section .contact-info h5{
+font-size: 15px;
+font-family: "Overlock", sans-serif;
+font-weight: 600;
+}
+#contact_section .contact-info i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #343a40;
+}
+#contact_section .contact-info .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+#contact_section .contact-info .info-item span{
+font-size: 18px;
+font-family: "Overlock", sans-serif;
+}
+#contact_section .contact-info .info-item:last-child {
+    margin-bottom: 0;
+}
+#contact_section .social-icons a {
+    font-size: 15px;
+    color: #343a40;
+    transition: color 0.3s ease;
+    
+}
+#contact_section .social-icons{
+    margin-top: 20px;
+}
+#contact_section .social-icons a i{
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #E6E6E6;
+}
+#contact_section .social-icons a i:hover {
+    background-color: #c7c5c5;
+}
+/*CONTACT SECTION END*/
+
+/*CONTACT PAGE END*/

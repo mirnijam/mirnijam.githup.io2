@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Playwrite+DK+Uloopet:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playwrite+DK+Uloopet:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100% ;
+    height: auto;
+}
+h2{
+    font-family: "Audiowide", sans-serif;
+    font-size: 34px;  
+}
+p{
+    font-family: "Overlock", sans-serif;
+    font-size: 18px;
+}
+h3{
+    font-family: "Audiowide", sans-serif;
+    font-size: 18px;  
+}
+
+@media only screen and (max-width: 599px) {
+    /* Styles for devices with a width of 599px or less */
+    .margin_buttom{
+        margin-bottom:40px !important;
+    }
+    
+    }
+
+    .margin_buttom{
+        margin-bottom: 65px;
+    }
+
+
+
+
+
+
+
+/*HEADER SECTION START*/
+#header_section .header_section{
+    width: 100%;
+    height: 25vh;
+    background-color: white !important;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+#header_section .header_section .header_logo_section .header_logo_link .header_logo{
+    max-width: 150px;
+    max-height: 118px;
+}
+#header_section .header_section .header_link{
+    gap: 20px;
+}
+#header_section .header_section .header_link .navbar_nav{
+    gap: 20px;
+}
+#header_section .header_section .header_link .navbar_nav .nav_item .active{
+    color: #28a745 !important;
+    font-size: 1.2rem;
+    font-family: "Audiowide", sans-serif;
+}
+#header_section .header_section .header_link .navbar_nav .nav_item .nav_link{
+    font-size: 1.2rem;
+    font-family: "Audiowide", sans-serif;
+    color: #000;
+    
+}
+#header_section .header_section .header_link .navbar_nav .nav_item .nav_link:hover{
+    color: #28a745;
+    border-bottom: 1px solid #28a745 ;
+    
+}
+#header_section .header_section .header_link .btn-custom{
+    background-color: #54B435;
+    color: white;
+   border-radius: 30px;
+   padding: 10px 40px;
+   font-weight: 500;
+}
+#header_section .header_section .header_link .btn-custom:hover{
+    background-color: #379237;
+
+}
+
+@media only screen and (max-width: 599px) {
+    /* Styles for devices with a width of 599px or less */
+    #header_section .header_section{
+        padding-left: 10px;
+        padding-right: 20px;
+        height: auto;
+    }
+    #header_section .header_section .navbar-toggler{
+        background-color: #54B435;
+        padding: 8px;
+        font-size: 18px;
+        border: none;
+      
+    }
+    
+    #header_section .header_section .navbar-toggler-icon{
+        color: white !important;
+        background-image: url(../img/menu-regular-24.png);
+    }
+    #header_section .header_section .header_logo_section .header_logo_link .header_logo{
+        max-width: 100px;
+        max-height: 118px;
+    }
+    #header_section .header_section .header_link .navbar_nav .nav_item{
+        border-bottom: 1px solid #dddddd;
+    }
+    #header_section .header_section .header_link .navbar_nav .nav_item .nav_link{
+        margin-left: 0px;
+    }
+    #header_section .header_section .header_link .navbar_nav{
+        gap: 0px;
+    }
+    }
+    @media only screen and (min-width: 600px) and (max-width: 899px) {
+    /* Styles for devices with a width between 600px and 899px */
+    #header_section .header_section{
+        padding-left: 0px;
+        padding-right: 25px;
+        height: auto;
+    }
+    #header_section .header_section .navbar-toggler{
+        background-color: #54B435;
+        padding: 8px;
+        font-size: 22px;
+        border: none;
+      
+    }
+    
+    #header_section .header_section .navbar-toggler-icon{
+        color: white !important;
+        background-image: url(../img/menu-regular-24.png);
+    }
+    #header_section .header_section .header_link .navbar_nav .nav_item{
+        border-bottom: 1px solid #dddddd;
+    }
+    #header_section .header_section .header_link .navbar_nav .nav_item .nav_link{
+        margin-left: 20px;
+    }
+    #header_section .header_section .header_link .navbar_nav{
+        gap: 0px;
+    }
+
+    }
+    @media only screen and (min-width: 900px) {
+    /* Styles for devices with a width of 900px or more */
+
+
+}
+
+
+/*HEADER SECTION END*/
+/*FOOTER SECTION SATRT*/
+#footer {
+    background-color: #0a1728; /* Dark background color */
+    color: #ffffff; /* Text color */
+    text-align: center;
+    padding: 40px 0;
+   
+}
+
+#footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer .container .footer_address {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+#footer .container .footer_copyright{
+    font-size: 18px;
+}
+#footer .container .footer_link {
+    color: #54B435; /* Link color */
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 768px) {
+   
+    #footer .container .footer_address {
+        margin-bottom: 24px;
+        font-size: 15px;
+    }
+    #footer .container .footer_copyright{
+        font-size: 15px;
+        margin: 0;
+    }
+    
+}
+
+/*FOOTER SECTION END*/
+/*SCROOL TO TOP START*/
+/* Scroll to Top Button Styles */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #001A57;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding: 4px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.scroll-to-top img {
+    width: 24px;
+    height: 24px;
+    
+}
+.fab-container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 999999;
+}
+
+.fab-button {
+    margin: 5px 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+.fab-button .bxs-message-rounded-dots {
+   font-size: 35px;
+}
+.fab-button .bxl-whatsapp {
+    font-size: 35px;
+ }
+ .fab-button .bxs-phone-call {
+    font-size: 35px;
+ }
+.message-btn{
+    background-color: #86CD91;
+}
+.whatsapp-btn{
+    background-color: #49E670;
+}
+.call-btn{
+    background-color: #03E78B;
+}
+.call-btn, .whatsapp-btn {
+    display: none; /* Initially hidden */
+}
+
+
+
+/*SCROOL TO TOP END*/
