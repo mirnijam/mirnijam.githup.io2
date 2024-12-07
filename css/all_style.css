@@ -331,6 +331,12 @@ text-align: center;
         margin-top: 42% !important;
        text-align: center;
        }
+    #Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_img .place .mo{
+        margin-top: 10px !important;
+       }
+     #Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_img .place4 .mo{
+        margin-top: 10px !important;
+       }
        #Tourist_Place_section .container .Tourist_Place_row .Tourist_Place_section_img .place{
         min-height: auto !important;
         text-align: center;
